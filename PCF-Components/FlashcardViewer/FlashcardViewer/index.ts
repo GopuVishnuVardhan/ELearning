@@ -4,7 +4,7 @@ export class FlashcardViewer implements ComponentFramework.StandardControl<IInpu
   private _container: HTMLDivElement;
   private _frontText: string;
   private _backText: string;
-  private _isFlipped: boolean = false;
+  private _isFlipped = false;
 
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   constructor() {}

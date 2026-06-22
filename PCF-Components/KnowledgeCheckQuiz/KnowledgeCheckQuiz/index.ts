@@ -6,7 +6,7 @@ export class KnowledgeCheckQuiz implements ComponentFramework.StandardControl<II
   private _options: string[];
   private _correctOption: number;
   private _selectedOption: number | null = null;
-  private _isSubmitted: boolean = false;
+  private _isSubmitted = false;
 
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   constructor() {}
