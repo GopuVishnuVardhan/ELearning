@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="GVV" constructor="KnowledgeCheckQuiz" version="1.0.0" display-name-key="KnowledgeCheckQuiz" description-key="Interactive multiple choice quiz component" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="question" display-name-key="Question" description-key="The quiz question" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="option1" display-name-key="Option 1" description-key="First choice" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="option2" display-name-key="Option 2" description-key="Second choice" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="option3" display-name-key="Option 3" description-key="Third choice" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="option4" display-name-key="Option 4" description-key="Fourth choice" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="correctOption" display-name-key="Correct Option" description-key="Number (1-4) of correct option" of-type="Whole.None" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>

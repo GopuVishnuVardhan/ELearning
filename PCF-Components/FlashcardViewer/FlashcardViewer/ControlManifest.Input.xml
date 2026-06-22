@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="GVV" constructor="FlashcardViewer" version="1.0.0" display-name-key="FlashcardViewer" description-key="Interactive flip card for studying" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="frontText" display-name-key="Front Text" description-key="Text on the front of the card" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="backText" display-name-key="Back Text" description-key="Text on the back of the card" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>

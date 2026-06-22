@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="GVV" constructor="VideoResourcePlayer" version="1.0.0" display-name-key="VideoResourcePlayer" description-key="Embed a training video directly on a form" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="videoUrl" display-name-key="Video URL" description-key="Embed URL for the video resource" of-type="SingleLine.URL" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>

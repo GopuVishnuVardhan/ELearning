@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="GVV" constructor="CourseProgressBar" version="1.0.0" display-name-key="CourseProgressBar" description-key="Visual progress bar for course completion tracking" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="progress" display-name-key="Course Progress" description-key="Percentage of course completed (0-100)" of-type="Whole.None" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>

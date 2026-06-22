@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="GVV" constructor="LearningPathStepper" version="1.0.0" display-name-key="LearningPathStepper" description-key="Interactive wizard stepper for learning paths" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="currentStage" display-name-key="Current Stage" description-key="The current active stage (integer)" of-type="Whole.None" usage="bound" required="true" />
+    <property name="stageNames" display-name-key="Stage Names" description-key="Comma separated list of stage names" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
